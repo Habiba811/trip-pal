@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Trip_Pal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="start" />
+    <string name="trip_type" />
+    <string name="to" />
+    <string name="time" />
+    <string name="date" />
+    <string name="from" />
+    <string name="trip_name" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="round">Round</string>
+    <string name="one_way">One Way</string>
+    <string name="TripName" />
+    <string name="name">Trip Name</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Trip_type">Trip Type</string>
+    <string name="Sync">Sync</string>
+    <string name="SignOut">Sign out</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/i_upcoming"
+            android:title="Upcoming Trips" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/i_done"
+            android:title="Done Trips" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/i_cancelled"
+            android:title="Cancelled Trips" />
+    </group>
+
+    <group
+        android:id="@+id/menu_second_grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="@string/Sync"
+            android:onClick="clickedOption"/>
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/SignOut"
+            android:onClick="clickedOption"/>
+    </group>
+</menu>

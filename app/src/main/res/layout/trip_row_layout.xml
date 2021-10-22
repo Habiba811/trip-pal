@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_id"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    app:cardBackgroundColor="@color/quantum_cyanA100"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/quantum_googyellow100">
+
+        <ImageView
+            android:id="@+id/action_edit_id"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/action_delete_id"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/action_delete_id"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/trip_date_label_id"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/trip_date_imageView_id"
+            app:layout_constraintTop_toBottomOf="@+id/trip_to_label_id" />
+
+        <ImageView
+            android:id="@+id/trip_time_imageView_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="TODO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trip_date_imageView_id"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/trip_time_label_id"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/trip_time_imageView_id"
+            app:layout_constraintTop_toBottomOf="@+id/trip_date_label_id" />
+
+        <TextView
+            android:id="@+id/trip_from_label_id"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/trip_from_imageView_id"
+            app:layout_constraintTop_toBottomOf="@+id/trip_name_label_id" />
+
+        <ImageView
+            android:id="@+id/trip_from_imageView_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trip_type_imageView_id"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/trip_to_imageView_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trip_from_imageView_id"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/trip_to_label_id"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/trip_to_imageView_id"
+            app:layout_constraintTop_toBottomOf="@+id/trip_from_label_id" />
+
+        <ImageView
+            android:id="@+id/trip_date_imageView_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="TODO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trip_to_imageView_id"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/trip_name_label_id"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/trip_type_imageView_id"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trip_type_imageView_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="TODO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/start_button_id"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:text="START"
+            android:textSize="12sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trip_time_label_id" />
+
+        <ImageView
+            android:id="@+id/action_show_notes_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/start_button_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trip_to_label_id"
+            app:layout_constraintTop_toBottomOf="@+id/action_edit_id"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

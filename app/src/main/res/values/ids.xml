@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="trip_name_edit_text_id" type="id" />
+    <item name="round_trip_radio_button_id" type="id" />
+    <item name="trip_date_date_picker_id" type="id" />
+    <item name="trip_time_time_picker_id" type="id" />
+    <item name="one_way_trip_radio_button_id" type="id" />
+    <item name="to_edit_text_id" type="id" />
+    <item name="from_edit_text_id" type="id" />
+</resources>

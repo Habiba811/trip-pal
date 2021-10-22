@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "349451884192",
+    "project_id": "trip-reminder-27447",
+    "storage_bucket": "trip-reminder-27447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349451884192:android:bcf2d7c936076bf7b19bc5",
+        "android_client_info": {
+          "package_name": "eg.gov.iti.jets.trip_pal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349451884192-ei8gtt3m568rhknflslj6k37eg7b1f13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eg.gov.iti.jets.trip_pal",
+            "certificate_hash": "9a8f6c254dd5ab7e4a0b2db6ac4cae9fc98669a6"
+          }
+        },
+        {
+          "client_id": "349451884192-q5c0heec8phru97rah2sparlah5buh2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Ma4n2G2bmAT7a-4YQuEZb5jgS2awnHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349451884192-q5c0heec8phru97rah2sparlah5buh2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
